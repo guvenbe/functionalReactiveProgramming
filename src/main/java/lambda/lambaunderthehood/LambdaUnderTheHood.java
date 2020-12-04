@@ -1,15 +1,14 @@
 package lambda.lambaunderthehood;
 
 
-
 @FunctionalInterface
-interface MyFunctionalInterface{
+interface MyFunctionalInterface {
     public void myMethod();
 }
 
 public class LambdaUnderTheHood {
     public static void main(String[] args) {
-        MyFunctionalInterface fun1 = new MyFunctionalInterface(){
+        MyFunctionalInterface fun1 = new MyFunctionalInterface() {
 
             @Override
             public void myMethod() {
@@ -17,7 +16,7 @@ public class LambdaUnderTheHood {
             }
         };
 
-        MyFunctionalInterface fun2 = new MyFunctionalInterface(){
+        MyFunctionalInterface fun2 = new MyFunctionalInterface() {
 
             @Override
             public void myMethod() {
