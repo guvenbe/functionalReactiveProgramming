@@ -1,4 +1,4 @@
-package lambda.lambaunderthehood;
+package lambda.lambdaunderthehood;
 
 
 @FunctionalInterface
