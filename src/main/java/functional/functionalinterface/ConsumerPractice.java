@@ -6,7 +6,8 @@ import java.util.function.Consumer;
 public class ConsumerPractice {
     public static void main(String[] args) {
         List<Integer> list = List.of(34,66,5,7,8,3,4589,89);
-        Consumer<Integer> consumer = e-> System.out.println(e);
+//        Consumer<Integer> consumer = e-> System.out.println(e);
+        Consumer<Integer> consumer = System.out::println;
         consumer.accept(56);
         printElements(list,consumer);
     }

@@ -7,7 +7,8 @@ public class SupplierPractice {
         Supplier<String> stringSupplier = ()-> new String("A string");
         System.out.println(stringSupplier.get());
 
-        Supplier<Double> randomNumber = () -> Math.random();
+//        Supplier<Double> randomNumber = () -> Math.random();
+        Supplier<Double> randomNumber = Math::random;
         System.out.println(randomNumber.get());
     }
 }

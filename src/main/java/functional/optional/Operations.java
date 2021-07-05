@@ -5,6 +5,7 @@ import java.util.Optional;
 public class Operations {
     public static void main(String[] args) {
         Optional<String> optional =Optional.of("Value");
+//        Optional<String> optional =Optional.empty();
         //map return transformed value
         Optional<String> map = optional.map(val -> "Replaced");
         System.out.println(map.orElseGet(()->"No Value present"));

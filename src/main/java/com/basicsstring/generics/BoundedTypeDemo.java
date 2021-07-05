@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//Any Type that extends NUMBER
 class DataSorter<T extends Number>{
     private List<T> list;
 

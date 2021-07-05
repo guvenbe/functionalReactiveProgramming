@@ -1,6 +1,6 @@
 package com.basicsstring.generics;
 
-//Upper bound wild card: ? extends A
+//Upper bound wild card: ? extends A <-- Extends it's objetc type There is another object involvved here
 //Lower bound wild card: ? super B
 
 class DataNode<E>{

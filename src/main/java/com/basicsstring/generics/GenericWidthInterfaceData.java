@@ -120,10 +120,10 @@ class Demo{
         //this one is bad
         //int resultbad = (int)(d.getData());
 
-        GenericWidthInterfaceData<String> gwid1 = new GenericWidthInterfaceData<>("Hello Generic");
+        IData<String> gwid1 = new GenericWidthInterfaceData<>("Hello Generic");
         System.out.println(gwid1.getData());
 
-        GenericWidthInterfaceData<Integer> gwid2 = new GenericWidthInterfaceData<>(1);
+        IData<Integer> gwid2 = new GenericWidthInterfaceData<>(1);
         System.out.println(gwid2.getData());
 
         GenericData<Integer> gd1 = new GenericData<>(50);
