@@ -1,4 +1,4 @@
-package com.basicsstring.generics.functional.depth;
+package com.basicsstrong.generics.functional.depth;
 
 import java.util.Objects;
 import java.util.function.Function;
@@ -30,12 +30,14 @@ public class Chaining {
         };
 
         c3.accept("hello");
-        Consumer<String> c4 = c1.thenAccept(c2);
+        Consumer<String> c4 = c1.thenAccept(c2).thenAccept(c2);
         c4.accept("BasicsStrong");
 
         Function<Integer,Integer> f1 = s -> s+2;
         Function<Integer,Integer> f2 = s -> s*2;
-        Function<Integer,Integer> f3 = f1.andThen(f2);
-        System.out.println(f3.apply(10));
+        Function<Integer,Integer> f3 = s -> s/2;
+
+        Function<Integer,Integer> f4 = f1.andThen(f2).andThen(f3);
+        System.out.println(f4.apply(10));
     }
 }

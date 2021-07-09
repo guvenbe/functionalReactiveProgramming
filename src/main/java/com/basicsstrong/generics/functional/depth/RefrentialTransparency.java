@@ -1,4 +1,4 @@
-package com.basicsstring.generics.functional.depth;
+package com.basicsstrong.generics.functional.depth;
 
 public class RefrentialTransparency {
     public static void main(String[] args) {

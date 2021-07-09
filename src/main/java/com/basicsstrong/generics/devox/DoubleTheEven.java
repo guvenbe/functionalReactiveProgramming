@@ -1,4 +1,4 @@
-package com.basicsstring.generics.devox;
+package com.basicsstrong.generics.devox;
 
 import java.util.ArrayList;
 import java.util.Arrays;

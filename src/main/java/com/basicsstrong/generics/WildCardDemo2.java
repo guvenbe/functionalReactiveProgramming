@@ -1,4 +1,4 @@
-package com.basicsstring.generics;
+package com.basicsstrong.generics;
 
 //Upper bound wild card: ? extends A <-- Extends it's objetc type There is another object involvved here
 //Lower bound wild card: ? super B

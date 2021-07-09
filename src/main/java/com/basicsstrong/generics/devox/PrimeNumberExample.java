@@ -1,4 +1,4 @@
-package com.basicsstring.generics.devox;
+package com.basicsstrong.generics.devox;
 
 import java.util.function.Predicate;
 import java.util.stream.IntStream;

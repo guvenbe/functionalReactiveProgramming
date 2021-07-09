@@ -1,4 +1,4 @@
-package com.basicsstring.generics;
+package com.basicsstrong.generics;
 
 import java.util.ArrayList;
 import java.util.HashMap;

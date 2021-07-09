@@ -1,4 +1,4 @@
-package com.basicsstring.generics;
+package com.basicsstrong.generics;
 
 interface IBase<T>{}
 

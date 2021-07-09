@@ -1,4 +1,4 @@
-package com.basicsstring.generics;
+package com.basicsstrong.generics;
 
 public class WirldCardDemo2 {
     public static void main(String[] args) {

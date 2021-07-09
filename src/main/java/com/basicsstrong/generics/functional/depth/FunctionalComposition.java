@@ -1,4 +1,4 @@
-package com.basicsstring.generics.functional.depth;
+package com.basicsstrong.generics.functional.depth;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package com.basicsstring.generics.functional.depth;
+package com.basicsstrong.generics.functional.depth;
 
 interface IProducer<T> {
     T produce();
