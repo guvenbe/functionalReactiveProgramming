@@ -1,0 +1,4 @@
+Collector(I)
+
+supplier()    accumulator()   combiner()         finisher      characteristics
+Supplier       Biconsumer     BinaryOperator      Function       Set
