@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+participant Oberserver1 as obs1
+participant Oberserver2 as obs2
+participant Subject as subject
+
+obs1 -> subject: registerObserver(obs1)
+obs2 -> subject: registerObserver(obs2)
+subject -> subject: notify()
+subject -> obs1: update
+obs1->subject:getStatus
+subject -> obs2: update
+obs2->subject:getStatus
+subject<-:setStatus
+
+
+@enduml

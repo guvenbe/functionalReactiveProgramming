@@ -168,7 +168,6 @@ abstract class ListFun<T> {
 
 }
 
-
 public class LinkedListFunctionalDemo {
     public static void main(String[] args) {
         ListFun<Integer> list = ListFun.list(3, 6, 9);

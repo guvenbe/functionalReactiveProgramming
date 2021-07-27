@@ -121,7 +121,7 @@ class EndUser implements Observer{
 
     @Override
     public void update(String avail) {
-        System.out.println("Hell " + name + "! we are glad to notify you that book is availale");
+        System.out.println("Hello " + name + "! we are glad to notify you that book is availale");
     }
 }
 public class ObserverPattern {

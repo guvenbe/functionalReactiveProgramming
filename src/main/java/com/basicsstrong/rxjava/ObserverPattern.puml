@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ConcreteObserver{
++update()
+}
+class ConcreteSubject{
+    -Observer observers[]
+    +RegisterObserver(Observer)
+    +removeObserver(Observer)
+    +notify(Observer)
+    }
+interface Subject{
+    +RegisterObserver(Observer)
+    +removeObserver(Observer)
+    +notify(Observer)
+}
+interface Observer{
++update()
+}
+
+
+Subject -o Observer
+ConcreteSubject -u->Subject
+ConcreteObserver-u->Observer
+ConcreteSubject <- ConcreteObserver
+@enduml
+
+
+
+
